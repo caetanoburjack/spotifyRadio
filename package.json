@@ -1,0 +1,33 @@
+{
+  "name": "spotifyRadio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/caetanoburjack/spotifyRadio.git"
+  },
+  "author": "Caetano Burjack <caetano.burjack@gmail.com>",
+  "license": "MIT",
+  "description": "Seja bem vindo(a) à sexta Semana Javascript Expert. Este é o código inicial para iniciar nossa jornada.",
+  "bugs": {
+    "url": "https://github.com/caetanoburjack/spotifyRadio/issues"
+  },
+  "homepage": "https://github.com/caetanoburjack/spotifyRadio#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "live-reload": "nodemon server/index.js"
+  },
+  "engines": {
+    "node": "17"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "pino": "^7.8.0",
+    "pino-pretty": "^7.5.3"
+  }
+}
